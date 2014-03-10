@@ -14,6 +14,7 @@ var config = {
 
 module.exports.express = {
     customMiddleware: function (app) {
+        console.log("config of Middleware is called");
         var lockit = new Lockit(app, config);
     }
 };

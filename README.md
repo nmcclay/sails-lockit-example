@@ -11,4 +11,4 @@ visit http://127.0.0.1:5984/_utils and create a DB called 'test'
 
     sails lift
 
-visit http://localhost:1337/ and it should run lockit
+visit http://localhost:1337/ and it should run lockit on /signup /login /logout & /delete
